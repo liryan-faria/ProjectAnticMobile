@@ -1,34 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ProjectAnticMobile
 
-## Getting Started
+Projeto para reprodução de estética de projeto para app seguindo modelo de página via Figma. Busca manter toda a estrtura do projeto original realizando a construção estética da página.
 
-First, run the development server:
+# Sobre o projeto
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Projeto de reprodução estética de página, contendo a página dimensionada para mobile tal como especificado no projeto: (https://www.figma.com/file/MDUqPVA3sZqIvQxoaEzpG9/landing-page?node-id=0%3A1).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Buscando manter uma estrutura de organização de elementos e pastas usando TypeScript e deixando relativamente pronto para implementar a lógica dos elementos: scroll, button, links e input. 
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Parte estética feita usando Styled-Components e ícones importados via ReactIcons.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Imagens contidas na pasta images usadas para compor a parte estética do projeto foram baixadas diretamente do projeto no Figma. As fontes importadas do GoogleFonts.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Tempo aproximado para execução do projeto, aproximadamente 9h.
 
-## Learn More
+# Execução
 
-To learn more about Next.js, take a look at the following resources:
+Você pode executar este projeto, caso queira vê-lo, via comando em VsCode, podendo ser comparado com os dados do figma, projeto indicado acima. A foto presente é ilustrativa do projeto.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Final
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Este projeto contou com a colaboraçã a do Pedro Lucinda (https://github.com/pedro-lucinda) que disponibilizou o modelo no Figma. Obrigada!

@@ -3,6 +3,8 @@
 Projeto para reprodução de estética para app seguindo modelo de página via Figma. Mantém toda a estrutura do projeto original realizando a construção estética da página.
 
 # Utilizado para este projeto
+    . React
+    . Next.js
     . TypeScript
     . Styled-Components
     . React-Icons

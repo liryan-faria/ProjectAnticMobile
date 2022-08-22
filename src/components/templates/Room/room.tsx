@@ -11,7 +11,7 @@ export default function Room() {
                 <div className="boxTitle">
                     <h1 className="title">Bedroom</h1>
                 </div>
-                <img className="image" />
+                <div className="image" />
                 <div className="label">News arrivals</div>
             </div>
 

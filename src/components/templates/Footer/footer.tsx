@@ -1,3 +1,4 @@
+import Link from "next/link";
 import LinkLearn from "../../elements/AcgionLinkLearn/LinkLearn";
 import About from "../../elements/FooterAbout/FooterAbout";
 import FooterLogo from "../../elements/FooterLogo/Logo";
@@ -19,7 +20,7 @@ export default function Footer() {
             <Rooms />
             <div className="blog">
                 <h3 className="titleBlog">We respect our planet</h3>
-                <img className="imageBlog" />
+                <div className="imageBlog" />
                 <span className="paragraph">We’re taking positive steps to reduce
                     our impact on the planet. For us, that means retailing
                     responsibly. We’ve set a number of goals to get us there.
@@ -29,10 +30,10 @@ export default function Footer() {
             <SocialNetworks />
             <div className="legals">
                 <div className="links">
-                    <a href="/" className="linksLegals">Privacy policy</a>
-                    <a href="/" className="linksLegals">Term of service</a>
+                    <Link href="/"><a className="linksLegals">Privacy policy</a></Link>
+                    <Link href="/"><a className="linksLegals">Term of service</a></Link>
                 </div>
-                <a href="/" className="language">Language</a>
+                <Link href="/"><a className="language">Language</a></Link>
                 <span className="agence">© 2021 Agence Dnd</span>
             </div>
         </Wrapper>

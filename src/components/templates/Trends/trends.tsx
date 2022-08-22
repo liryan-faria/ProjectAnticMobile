@@ -30,21 +30,21 @@ export default function Trends() {
                 <div className="gallery">
                     <div className="lineOne">
                         <div className="boxImageChair">
-                            <img className="imageChair" />
+                            <div className="imageChair" />
                             <span className="titleImage">Chair</span>
                         </div>
                         <div className="boxImage">
-                            <img className="imageCooked" />
+                            <div className="imageCooked" />
                             <span className="titleImage">Cooked</span>
                         </div>
                     </div>
                     <div className="line">
                         <div className="boxImageRoom">
-                            <img className="imageRoom" />
+                            <div className="imageRoom" />
                             <span className="titleImage">Room</span>
                         </div>
                         <div className="boxImage">
-                            <img className="imageTables" />
+                            <div className="imageTables" />
                             <span className="titleImage">Tables</span>
                         </div>
                     </div>

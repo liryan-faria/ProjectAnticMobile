@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Wrapper } from "./style";
 
 export default function About() {
@@ -5,9 +6,9 @@ export default function About() {
         <Wrapper>
             <h2 className="titleLinks">About</h2>
             <div className="linksFooter">
-                <a href="/" className="links">Our story</a>
-                <a href="/" className="links">Our stores</a>
-                <a href="/" className="links">Our patners</a>
+                <Link href="/" ><a className="links">Our story</a></Link>
+                <Link href="/" ><a className="links">Our stores</a></Link>
+                <Link href="/"><a className="links">Our patners</a></Link>
             </div>
         </Wrapper>
     )

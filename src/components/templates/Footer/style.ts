@@ -81,6 +81,11 @@ export const Wrapper = styled.div`
         height: 25px;
     }
 
+    .Link {
+        text-decoration: none;
+        color: inherit;
+    }
+
     .linksLegals {
         width: 120px;
         height: 25px;
@@ -90,7 +95,6 @@ export const Wrapper = styled.div`
         font-size: 18px;
         line-height: 25px;
         color: rgba(0, 0, 0, 0.45);
-
     }
 
     .language {

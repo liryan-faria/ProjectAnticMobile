@@ -23,7 +23,7 @@ Tempo para execução do projeto, aproximadamente 9h.
 
 # Execução
 
-Pode ser executado, caso queira vê-lo, via comando em VsCode, podendo ser comparado com a estética do Figma, projeto indicado acima. A foto contida é ilustrativa de partes do projeto.
+O projeto pode ser visto em: (https://project-antic-mobile.vercel.app/), ou em "View deployment" aqui no git, que redirecionará para o mesmo link.
 
 # Final
 
